@@ -38,4 +38,11 @@ public class EmployeeInformation {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public String toString() {
+		return "EmployeeInformation [code=" + code + ", message=" + message + ", emplist=" + emplist + "]";
+	}
+	
+	
 }

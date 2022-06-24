@@ -9,6 +9,10 @@ public class EmployeeModel {
 	private String AddBy;
 	private String AddDate;
 	
+
+	private String EmployeeCode;
+	private String EmployeeName;
+	
 	public String getEmployeeID() {
 		return EmployeeID;
 	}
@@ -45,5 +49,20 @@ public class EmployeeModel {
 	public void setAddDate(String addDate) {
 		AddDate = addDate;
 	}
+	
+	public String getEmployeeCode() {
+		return EmployeeCode;
+	}
+	public void setEmployeeCode(String employeeCode) {
+		EmployeeCode = employeeCode;
+	}
+	public String getEmployeeName() {
+		return EmployeeName;
+	}
+	public void setEmployeeName(String employeeName) {
+		EmployeeName = employeeName;
+	}
+	
+	
 
 }
